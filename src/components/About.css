@@ -1,0 +1,23 @@
+.about {
+    height: 72vh;
+    padding-top: 30px;
+    overflow-y: auto;
+}
+.about_intro{
+    font-size: 0.7 rem;
+    padding:20px;
+    margin:10px 0px
+}
+.about_container{
+    background-color: whitesmoke;
+    padding:30px 20px;
+}
+.about_heading{
+    font-size:20px;
+    font-weight:700;
+    color: #354358;
+    margin-left: 10px;
+}
+
+
+

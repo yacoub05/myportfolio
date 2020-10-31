@@ -1,13 +1,121 @@
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #00467f, #a5cc82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+  background-attachment: fixed;
+}
+/* ::-webkit-scrollbar {
+  width: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+
+} */
+
+a{
+  text-decoration: none;
+  color: #354548;
 }
+a:hover{
+  text-decoration: none;
+  color:black;
+}
+.app_container{
+  padding-top: 50px;
+
+}
+.app_row{
+  height: 86vh;
+}
+
+
+.app_maincontent{
+  height: 90vh;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding:25px 15px;
+  box-shadow:0 0 10px black;
+  
+}
+/*SideBar*/
+
+.sidebar{
+ background-color: #fff;
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+
+}
+.sidebar_profileimage{
+  height:120px;
+  width: 120px;
+  object-fit: contain;
+  border-radius: 30px;
+
+}
+.sidebar_icon{
+  width: 25px;
+  height: 25px;
+}
+.sidebar_name{
+  font-family: "Times New Roman", Times, serif;
+  font-size:1.7rem;
+}
+.sidebar_item{
+  margin-bottom: 6px;
+  padding-top: 6px;
+  height: 40px;
+  font-size: 1.05 rem;
+  border-radius: 30px;
+
+}
+.sidebar_title{
+  background-color:lightgrey;
+  border-radius: 30px;
+}
+
+.sidebar_contact{
+  background-color: #dbdddf;
+  padding:2px 0;
+  margin:20px -10px;
+}
+.sidebar_email{
+  background: linear-gradient(to right, #00467f, #a5cc82);
+  border-radius: 30px;
+  color:white;
+  margin:15px 25px 0px;
+  cursor:pointer;
+  transition:all .7s linear;
+}
+.sidebar_email:hover{
+  transform:scale(1.2);
+}
+
+@media(max-width:991px){
+  .app_maincontent{
+    margin:30px 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .app__main-content {
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+
+  .navbar__active {
+      font-size: 1.5rem;
+  }
+
+  .navbar__item {
+      font-size: 1rem;
+  }
+}
+
+
+
+
+

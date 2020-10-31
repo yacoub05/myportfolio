@@ -1,0 +1,27 @@
+.resume {
+    height: 72vh;
+    padding-top: 30px;
+    overflow-y: auto;
+}
+
+.resumecard_heading, .resume-language_heading{
+    /* margin-left: px; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(10, 57, 104)
+}
+.resumecard_body{
+    margin-top: 10px;
+}
+.resumecard_name{
+    font-size: 16px;
+}
+
+.resume_title{
+    font-weight: 700;
+}
+.resumecard_details{
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
